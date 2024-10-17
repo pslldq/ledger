@@ -49,6 +49,10 @@
 #include "ptree.h"
 #include "emacs.h"
 
+#if HAVE_IOCTL
+#include <sys/ioctl.h>
+#endif
+
 namespace ledger {
 
 void report_t::normalize_options(const string& verb)

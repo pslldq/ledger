@@ -46,6 +46,8 @@
 #include <readline/history.h>
 #endif
 
+#include <csignal>
+
 using namespace ledger;
 
 #if HAVE_BOOST_PYTHON

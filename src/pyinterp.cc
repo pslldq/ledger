@@ -38,6 +38,10 @@
 #include "xact.h"
 #include "post.h"
 
+#include <csignal>
+
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 using namespace python;

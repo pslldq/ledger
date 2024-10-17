@@ -44,6 +44,8 @@
 
 #include "chain.h"
 
+#include <set>
+
 namespace ledger {
 
 class xact_t;

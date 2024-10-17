@@ -39,6 +39,8 @@
 #include "format.h"
 #include "pool.h"
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 xact_base_t::xact_base_t(const xact_base_t& xact_base)

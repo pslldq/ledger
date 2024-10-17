@@ -50,6 +50,9 @@
 
 #include "amount.h"
 
+#include <boost/foreach.hpp>
+#include <boost/function.hpp>
+
 namespace ledger {
 
 DECLARE_EXCEPTION(balance_error, std::runtime_error);

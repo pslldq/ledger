@@ -56,6 +56,8 @@
 #include "utils.h"
 #include "amount.h"
 
+#include <boost/function.hpp>
+
 namespace ledger {
 
 DECLARE_EXCEPTION(parse_error, std::runtime_error);

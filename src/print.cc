@@ -38,6 +38,8 @@
 #include "session.h"
 #include "report.h"
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 namespace {

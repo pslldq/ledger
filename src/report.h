@@ -42,7 +42,6 @@
 #pragma once
 
 #include "expr.h"
-#include "query.h"
 #include "chain.h"
 #include "stream.h"
 #include "option.h"

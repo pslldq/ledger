@@ -38,6 +38,8 @@
 #include "session.h"
 #include "report.h"
 
+#include <boost/property_tree/xml_parser.hpp>
+
 namespace ledger {
 
 namespace {

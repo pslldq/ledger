@@ -43,10 +43,15 @@
  */
 #pragma once
 
-#include "utils.h"
 #if HAVE_BOOST_REGEX_UNICODE
 #include "unistring.h"
+#include <boost/regex/icu.hpp>
+#else
+#include <boost/regex.hpp>
 #endif
+#include <boost/property_tree/ptree.hpp>
+
+#include "utils.h"
 
 namespace ledger {
 

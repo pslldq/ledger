@@ -41,6 +41,8 @@
 #include "option.h"
 #include "report.h"
 
+#include <boost/ptr_container/ptr_list.hpp>
+
 namespace ledger {
 
 class session_t;

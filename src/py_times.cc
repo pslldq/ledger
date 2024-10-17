@@ -30,11 +30,13 @@
  */
 
 #include <system.hh>
+#include <Python.h>
 #include <datetime.h>
 
 #include "pyinterp.h"
 #include "pyutils.h"
 #include "times.h"
+
 
 // jww (2007-05-04): Convert time duration objects to PyDelta
 

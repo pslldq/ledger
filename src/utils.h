@@ -43,7 +43,24 @@
  */
 #pragma once
 
+#include <string>
+#include <list>
+
+#include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/uuid/detail/sha1.hpp>
+#include <boost/filesystem.hpp>
+#include <boost/filesystem/fstream.hpp>
+#include <boost/current_function.hpp>
+#include <boost/format.hpp>
+#include <boost/polymorphic_cast.hpp>
+
+#if HAVE_BOOST_REGEX_UNICODE
+#include <boost/regex/icu.hpp>
+#else
+#include <boost/regex.hpp>
+#endif // HAVE_BOOST_REGEX_UNICODE 
+
+#include "i18n.h"
 #include <ledger.hh>
 
 #define TIMERS_ON   1

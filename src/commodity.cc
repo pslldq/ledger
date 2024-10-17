@@ -37,6 +37,9 @@
 #include "pool.h"
 #include "scope.h"
 
+#include <boost/algorithm/string.hpp>
+#include <boost/tuple/tuple_comparison.hpp>
+
 namespace ledger {
 
 bool commodity_t::decimal_comma_by_default = false;

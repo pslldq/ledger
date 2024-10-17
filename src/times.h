@@ -45,6 +45,10 @@
 
 #include "utils.h"
 
+#include <boost/optional.hpp>
+#include <boost/variant.hpp>
+#include <boost/property_tree/ptree.hpp>
+
 namespace ledger {
 
 DECLARE_EXCEPTION(datetime_error, std::runtime_error);

@@ -43,6 +43,8 @@
  */
 #pragma once
 
+#include <boost/python.hpp>
+
 namespace ledger { namespace python {
 
 template <typename T, typename TfromPy>

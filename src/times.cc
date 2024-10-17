@@ -33,6 +33,9 @@
 
 #include "times.h"
 
+#include <boost/algorithm/string.hpp>
+#include <boost/foreach.hpp>
+
 #if defined(_WIN32) || defined(__CYGWIN__)
 #include "strptime.h"
 #endif

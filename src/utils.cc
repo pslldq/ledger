@@ -33,6 +33,12 @@
 
 #include "times.h"
 
+#include <boost/foreach.hpp>
+
+#if HAVE_GETPWUID || HAVE_GETPWNAM
+#include <pwd.h>
+#endif
+
 /**********************************************************************
  *
  * Assertions

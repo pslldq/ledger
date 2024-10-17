@@ -37,6 +37,8 @@
 #include "annotate.h"
 #include "pool.h"
 
+#include <mpfr.h>
+
 namespace ledger {
 
 bool amount_t::stream_fullstrings = false;

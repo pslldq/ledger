@@ -41,8 +41,9 @@
  */
 #pragma once
 
+#include <boost/format.hpp>
+
 #include "utils.h"
-#include "times.h"
 
 #if HAVE_GPGME
 #include "gpgme.h"

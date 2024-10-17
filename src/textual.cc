@@ -51,6 +51,8 @@
 #include "timelog.h"
 #endif
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 namespace {

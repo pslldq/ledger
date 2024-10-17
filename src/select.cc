@@ -38,9 +38,12 @@
 #include "output.h"
 #include "print.h"
 #include "chain.h"
-#include "filters.h"
 #include "scope.h"
 #include "op.h"
+
+#if HAVE_IOCTL
+#include <sys/ioctl.h>
+#endif
 
 namespace ledger {
 

@@ -47,6 +47,8 @@
 
 #if HAVE_BOOST_PYTHON
 
+#include <boost/python.hpp>
+
 namespace ledger {
 
 class python_module_t : public scope_t, public noncopyable

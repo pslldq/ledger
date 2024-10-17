@@ -41,6 +41,11 @@
  */
 #pragma once
 
+#include <boost/cstdint.hpp>
+#include <boost/noncopyable.hpp>
+
+#include "utils.h"
+
 namespace ledger { namespace flags {
 
 template <typename T = boost::uint_least8_t, typename U = T>

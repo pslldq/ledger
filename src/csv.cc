@@ -38,6 +38,8 @@
 #include "journal.h"
 #include "pool.h"
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 string csv_reader::read_field(std::istream& in)

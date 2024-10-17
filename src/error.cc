@@ -33,6 +33,8 @@
 
 #include "utils.h"
 
+#include <boost/smart_ptr/scoped_array.hpp>
+
 #if HAVE_GPGME
 #include "gpgme.h"
 #endif

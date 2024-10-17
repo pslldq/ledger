@@ -41,6 +41,14 @@
  */
 #pragma once
 
+#include <cuchar>
+#include <vector>
+#include <boost/cstdint.hpp>
+#include <boost/foreach.hpp>
+
+#include "utf8.h"
+#include "utils.h"
+
 namespace ledger {
 
 int mk_wcwidth(boost::uint32_t ucs);

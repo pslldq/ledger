@@ -37,9 +37,11 @@
 #else
 #include "session.h"
 #endif
-#include "item.h"
 #include "journal.h"
-#include "pool.h"
+
+#if HAVE_UNIX_PIPES
+#include <sys/wait.h>
+#endif
 
 namespace ledger {
 

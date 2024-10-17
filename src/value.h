@@ -48,6 +48,8 @@
  */
 #pragma once
 
+#include <boost/ptr_container/ptr_deque.hpp>
+
 #include "balance.h"            // includes amount.h
 #include "mask.h"
 

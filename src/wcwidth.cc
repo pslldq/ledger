@@ -65,6 +65,8 @@
 
 #include <system.hh>
 
+#include <boost/cstdint.hpp>
+
 namespace ledger {
 
 namespace {

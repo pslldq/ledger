@@ -38,6 +38,8 @@
 #include "unistring.h"          // for justify()
 #include "op.h"
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 intrusive_ptr<value_t::storage_t> value_t::true_value;

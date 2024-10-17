@@ -31,12 +31,9 @@
 
 #include <system.hh>
 
-#include "draft.h"
-#include "xact.h"
 #include "post.h"
 #include "account.h"
 #include "report.h"
-#include "session.h"
 
 namespace ledger {
 

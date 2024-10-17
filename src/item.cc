@@ -33,6 +33,8 @@
 
 #include "item.h"
 
+#include <boost/algorithm/string.hpp>
+
 namespace ledger {
 
 bool item_t::use_aux_date = false;

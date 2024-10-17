@@ -33,6 +33,13 @@
 
 #include "stream.h"
 
+#include <boost/iostreams/stream.hpp>
+#define BOOST_IOSTREAMS_USE_DEPRECATED 1
+#include <boost/iostreams/device/file_descriptor.hpp>
+#if HAVE_UNIX_PIPES
+#include <sys/wait.h>
+#endif
+
 namespace ledger {
 
 namespace {
